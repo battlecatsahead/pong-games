@@ -1,0 +1,3 @@
+# pong-python
+
+requires pygame
