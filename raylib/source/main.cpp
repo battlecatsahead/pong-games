@@ -78,8 +78,6 @@ int main(void) {
         }
 		BeginDrawing();
 		ClearBackground(RAYWHITE);
-		DrawText(TextFormat("DETECTED AXIS [%i]:", paddle.x), 10, 50, 10, MAROON);
-		DrawText(TextFormat("DETECTED AXIS [%i]:", ball.x), 10, 60, 10, MAROON);
 
 		DrawRectangle(ball.x, ball.y, 80, 80, MAROON);
         DrawRectangle(paddle.x , paddle.y, 40, 100, MAROON);
