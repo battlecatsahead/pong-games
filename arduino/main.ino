@@ -68,7 +68,7 @@ void paddle(){
 }
 
 void collision(){
-		if(bally >= paddleY && bally <= paddleY + 40 && ballx == 5) { // check if ball collides with paddle
+		if(bally >= paddleY && bally <= paddleY + 10 && ballx == 5) { // check if ball collides with paddle
 			speedy *= -1;
 			speedx *= -1;
       score += 1;
